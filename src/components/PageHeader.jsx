@@ -2,9 +2,6 @@ function PageHeader({ title, description }) {
   return (
     <div className="page-header">
 
-      <div className="page-header-icon">
-        🛡️
-      </div>
 
       <p>JanSahara</p>
 

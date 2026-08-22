@@ -12,13 +12,8 @@ function Women() {
 
       <div className="support-intro">
 
-        <div className="large-icon">
-          👩
-        </div>
 
         <div>
-          <h2>You are not alone</h2>
-
           <p>
             Find emergency helplines, legal support,
             domestic violence resources and safety information.

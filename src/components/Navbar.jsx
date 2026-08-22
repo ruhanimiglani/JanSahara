@@ -9,7 +9,7 @@ function Navbar() {
       <div className="nav-container">
 
         <Link to="/" className="logo">
-          🛡️ JanSahara
+           JanSahara
         </Link>
 
         <button

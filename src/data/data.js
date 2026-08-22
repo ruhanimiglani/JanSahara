@@ -87,11 +87,6 @@ export const womenSupport = [
     description: "Resources and support for domestic violence situations."
   },
   {
-    icon: "⚖️",
-    title: "Legal Aid",
-    description: "Learn about legal support and assistance."
-  },
-  {
     icon: "🤝",
     title: "Nearby Women NGOs",
     description: "Find organisations providing support to women."
