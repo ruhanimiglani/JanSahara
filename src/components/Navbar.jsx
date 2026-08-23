@@ -7,17 +7,17 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-container">
+        <div className="logo">
+          <img src="/logo.png" alt="JanSahara logo" />
+          <span>JanSahara</span>
+        </div>
 
-        <Link to="/" className="logo">
-           JanSahara
-        </Link>
-
-        <button
+        {/* <button
           className="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           ☰
-        </button>
+        </button> */}
 
         <div className={menuOpen ? "nav-links show" : "nav-links"}>
           <Link to="/">Home</Link>

@@ -15,7 +15,10 @@ import NearbyHelp from "./pages/NearbyHelp";
 import TrustedContacts from "./pages/TrustedContacts";
 import Helplines from "./pages/Helplines";
 import NotFound from "./pages/NotFound";
-
+import ChildRights from "./pages/ChildRights";
+import MissingChild from "./pages/MissingChild";
+import ChildAbuse from "./pages/ChildAbuse";
+import ChildNGOs from "./pages/ChildNGOs";
 function App() {
   return (
     <BrowserRouter>
@@ -26,7 +29,8 @@ function App() {
         <Route path="/sos" element={<SOS />} />
         <Route path="/women" element={<Women />} />
         <Route path="/men" element={<Men />} />
-        <Route path="/children" element={<Children />} />
+        <Route path="/children" element={<Children />}/>
+        <Route path="/child-rights" element={<ChildRights />}/>
         <Route path="/mental-health" element={<MentalHealth />} />
         <Route path="/complaint" element={<Complaint />} />
         <Route path="/complaint-status" element={<ComplaintStatus />} />
@@ -34,7 +38,10 @@ function App() {
         <Route path="/contacts" element={<TrustedContacts />} />
         <Route path="/helplines" element={<Helplines />} />
         <Route path="*" element={<NotFound />} />
-      </Routes>
+        <Route path="/missing-child" element={<MissingChild />}/>
+        <Route path="/child-abuse" element={<ChildAbuse />}/>
+        <Route path="/child-ngos" element={<ChildNGOs />}/>
+        </Routes>
 
       <Footer />
     </BrowserRouter>
