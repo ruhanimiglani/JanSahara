@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer-container">
 
         <div>
-          <h2>🛡️ JanSahara</h2>
+          <h2>JanSahara</h2>
           <p>
             A simple platform connecting people with
             safety and support resources.

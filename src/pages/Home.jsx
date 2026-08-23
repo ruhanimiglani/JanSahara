@@ -10,7 +10,7 @@ function Home() {
         <div className="hero-content">
 
           <div className="hero-tag">
-            🤝 One place for support
+             One place for support 🤝
           </div>
 
           <h1>
@@ -39,10 +39,6 @@ function Home() {
         </div>
 
         <div className="hero-visual">
-
-          <div className="hero-circle">
-            🛡️
-          </div>
 
           <h3>Your safety matters</h3>
 
