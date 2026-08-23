@@ -167,12 +167,6 @@ export const childrenSupport = [
 
 export const mentalHealthSupport = [
   {
-    icon: "🧠",
-    title: "Tele-MANAS",
-    description: "Mental health support service.",
-    number: "14416"
-  },
-  {
     icon: "❤️",
     title: "Suicide Prevention Resources",
     description: "Find emergency mental health resources."
