@@ -12,13 +12,6 @@ function Navbar() {
           <span>JanSahara</span>
         </div>
 
-        {/* <button
-          className="menu-button"
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          ☰
-        </button> */}
-
         <div className={menuOpen ? "nav-links show" : "nav-links"}>
           <Link to="/">Home</Link>
           <Link to="/women">Women</Link>
