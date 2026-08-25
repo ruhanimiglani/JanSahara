@@ -122,6 +122,7 @@ button,input,textarea,select {
 .hero-buttons {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .btn {

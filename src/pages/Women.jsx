@@ -1,4 +1,5 @@
 import PageHeader from "../components/PageHeader";
+import { Link } from "react-router-dom";
 
 function Women() {
   return (
@@ -114,11 +115,10 @@ function Women() {
 
         {/* Domestic Violence */}
 
-        <a
-          href="/women/domestic-violence"
+        <Link
+          to="/women/domestic-violence"
           className="resource-card"
         >
-
           <div className="resource-icon">
             🛡️
           </div>
@@ -135,17 +135,16 @@ function Women() {
               View Support →
             </span>
           </div>
-
-        </a>
-
+        </Link>
 
         {/* Women NGOs */}
 
-        <a
-          href="/women/ngos"
+        
+
+        <Link
+          to="/women/ngos"
           className="resource-card"
         >
-
           <div className="resource-icon">
             🏢
           </div>
@@ -162,17 +161,15 @@ function Women() {
               View NGOs →
             </span>
           </div>
-
-        </a>
+        </Link>
 
 
         {/* Safety Tips */}
 
-        <a
-          href="/women/safety-tips"
+        <Link
+          to="/women/safety-tips"
           className="resource-card"
         >
-
           <div className="resource-icon">
             💡
           </div>
@@ -189,8 +186,7 @@ function Women() {
               View Safety Tips →
             </span>
           </div>
-
-        </a>
+        </Link>
 
       </div>
 

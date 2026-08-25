@@ -1,4 +1,5 @@
 import PageHeader from "../components/PageHeader";
+import { Link } from "react-router-dom";
 
 function Men() {
   return (
@@ -60,8 +61,8 @@ function Men() {
 
         {/* Mental Health */}
 
-        <a
-          href="/men/mental-health"
+        <Link
+          to="/men/mental-health"
           className="resource-card"
         >
 
@@ -82,13 +83,13 @@ function Men() {
             </span>
           </div>
 
-        </a>
+        </Link>
 
 
         {/* Abuse */}
 
-        <a
-          href="/men/abuse-help"
+        <Link
+          to="/men/abuse-help"
           className="resource-card"
         >
 
@@ -109,13 +110,13 @@ function Men() {
             </span>
           </div>
 
-        </a>
+        </Link>
 
 
         {/* Legal */}
 
-        <a
-          href="/men/legal-support"
+        <Link
+          to="/men/legal-support"
           className="resource-card"
         >
 
@@ -136,13 +137,13 @@ function Men() {
             </span>
           </div>
 
-        </a>
+        </Link>
 
 
         {/* Harassment */}
 
-        <a
-          href="/men/harassment"
+        <Link
+          to="/men/harassment"
           className="resource-card"
         >
 
@@ -163,13 +164,13 @@ function Men() {
             </span>
           </div>
 
-        </a>
+        </Link>
 
 
         {/* Organisations */}
 
-        <a
-          href="/men/ngos"
+        <Link
+          to="/men/ngos"
           className="resource-card"
         >
 
@@ -190,7 +191,7 @@ function Men() {
             </span>
           </div>
 
-        </a>
+        </Link>
 
       </div>
 
