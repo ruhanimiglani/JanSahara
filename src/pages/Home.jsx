@@ -4,7 +4,6 @@ import SupportCard from "../components/SupportCard";
 function Home() {
   return (
     <>
-
       <section className="hero">
 
         <div className="hero-content">
@@ -12,7 +11,6 @@ function Home() {
           <div className="hero-tag">
              One place for support 🤝
           </div>
-
           <h1>
             Help is closer
             <span> than you think.</span>
@@ -34,6 +32,9 @@ function Home() {
               📍 Find Help Nearby
             </Link>
 
+            <Link to="/complaint" className="complaint">
+              📝  Anonymous Complaint
+            </Link>
           </div>
 
         </div>

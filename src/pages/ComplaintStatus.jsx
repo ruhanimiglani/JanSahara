@@ -40,17 +40,14 @@ function ComplaintStatus() {
 
           <p>
             <strong>Category:</strong>
-            {" "}{complaint.category}
+            {complaint.category}
           </p>
 
           <p>
             <strong>Status:</strong>
-            {" "}Submitted for review
+            Submitted for review
           </p>
 
-          <p className="note">
-            This is a frontend-only project demonstration.
-          </p>
 
         </div>
 

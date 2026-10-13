@@ -105,7 +105,7 @@ function Children() {
             return (
               <Link
                 to={link}
-                className="child-rights-link"
+                className="child-link"
                 key={index}
               >
                 {card}

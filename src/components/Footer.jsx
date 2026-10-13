@@ -16,7 +16,6 @@ function Footer() {
 
         <div>
           <h3>Quick Links</h3>
-
           <Link to="/sos">SOS</Link>
           <Link to="/helplines">Emergency Helplines</Link>
           <Link to="/complaint">Anonymous Complaint</Link>

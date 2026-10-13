@@ -31,10 +31,6 @@ function NearbyHelp() {
           📍
         </div>
 
-        <span className="section-label">
-          COMING SOON
-        </span>
-
         <h2>Find help around you</h2>
 
         <p>
@@ -81,10 +77,6 @@ function NearbyHelp() {
             <h3>{place.name}</h3>
 
             <p>{place.description}</p>
-
-            <span className="coming-text">
-              Available soon →
-            </span>
 
           </div>
 

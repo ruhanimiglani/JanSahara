@@ -1,37 +1,41 @@
 import PageHeader from "../components/PageHeader";
 
 function ChildNGOs() {
-
   const organizations = [
     {
       icon: "🏠",
       name: "Child Protection Organisations",
       description:
         "Organisations working to improve child safety, protection and wellbeing.",
-      area: "Child Protection"
+      area: "Child Protection",
+      link: "https://www.ncpcr.gov.in/",
     },
     {
       icon: "🎓",
       name: "Education Support Organisations",
       description:
         "Groups that support children's education, learning and development.",
-      area: "Education"
+      area: "Education",
+      link: "https://www.unicef.org/india/",
     },
     {
       icon: "🛡️",
       name: "Child Safety Organisations",
       description:
         "Organisations working towards safer environments for children.",
-      area: "Safety"
+      area: "Safety",
+      link: "https://www.childlineindia.org/",
     },
     {
       icon: "💙",
       name: "Child Welfare Organisations",
       description:
         "Groups that provide support and assistance for children's welfare.",
-      area: "Child Welfare"
-    }
+      area: "Child Welfare",
+      link: "https://www.unicef.org/india/",
+    },
   ];
+
 
 
   return (
@@ -41,7 +45,6 @@ function ChildNGOs() {
         title="Child NGOs"
         description="Explore organisations and support areas focused on children's wellbeing."
       />
-
 
       <section className="child-help-page">
 
@@ -69,7 +72,7 @@ function ChildNGOs() {
 
         </div>
 
-
+        {/* NGO */}
         <div className="ngo-grid">
 
           {organizations.map((organization, index) => (
@@ -95,16 +98,15 @@ function ChildNGOs() {
                 {organization.description}
               </p>
 
-              <button
+              {/* <button
+                type="button"
                 className="ngo-button"
                 onClick={() =>
-                  alert(
-                    "NGO directory feature will be available in the next version."
-                  )
+                  handleSupport(organization.link)
                 }
               >
                 View Support →
-              </button>
+              </button> */}
 
             </div>
 
@@ -112,10 +114,12 @@ function ChildNGOs() {
 
         </div>
 
-
+        {/* Nearby NGO Section */}
         <div className="coming-feature">
 
-          <h3>Nearby NGO Directory</h3>
+          <h3>
+            Nearby NGO Directory
+          </h3>
 
           <p>
             JanSahara can later include a directory of verified
@@ -125,6 +129,38 @@ function ChildNGOs() {
           <span>
             Location services are currently disabled
           </span>
+
+        </div>
+
+        {/* Important Support Section */}
+        <div className="child-support-info">
+
+          <h3>
+            Need Immediate Help?
+          </h3>
+
+          <p>
+            If a child is in immediate danger or needs urgent
+            assistance, contact the appropriate child protection
+            or emergency service.
+          </p>
+
+          <div className="support-actions">
+
+            <button
+              type="button"
+              className="ngo-button"
+              onClick={() =>
+                window.open(
+                  "https://www.childlineindia.org/"
+                )
+              }
+            >
+              Child Helpline →
+            </button>
+
+
+          </div>
 
         </div>
 

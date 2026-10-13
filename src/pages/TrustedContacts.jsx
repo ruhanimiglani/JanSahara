@@ -183,22 +183,6 @@ function TrustedContacts() {
                 📞
                 </button>
 
-                  <button
-                    onClick={() =>
-                      sendSMS(contact.phone)
-                    }
-                  >
-                    💬
-                  </button>
-
-                  <button
-                    onClick={() =>
-                      deleteContact(contact.id)
-                    }
-                  >
-                    🗑️
-                  </button>
-
                 </div>
 
               </div>

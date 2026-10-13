@@ -21,7 +21,10 @@ function MentalHealth() {
 
           <p>
             Find counselling, Tele-MANAS,
-            stress relief and support resources.
+            stress relief and support resources <br/>
+            <span style={{ color: "#4d98f4", fontWeight: "500" }}>
+              Mental health support service : Call 14416
+            </span>
           </p>
         </div>
 
@@ -41,12 +44,6 @@ function MentalHealth() {
             <div>
               <h3>{item.title}</h3>
               <p>{item.description}</p>
-
-              {item.number && (
-                <a href={`tel:${item.number}`}>
-                  📞 {item.number}
-                </a>
-              )}
 
             </div>
 

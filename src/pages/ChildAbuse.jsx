@@ -17,11 +17,10 @@ function ChildAbuse() {
         title="Child Abuse Report"
         description="Learn how to respond to and report concerns about child safety."
       />
-
       <section className="child-help-page">
 
         <div className="help-hero abuse-hero">
-
+          
           <div className="help-hero-icon">
             🛡️
           </div>
@@ -115,10 +114,7 @@ function ChildAbuse() {
             <div>
               <h2>Report a Concern</h2>
 
-              <p>
-                This is a demo form for the JanSahara project.
-                It does not send a real report.
-              </p>
+        
             </div>
 
           </div>

@@ -11,14 +11,13 @@ function Navbar() {
           <img src="/logo.png" alt="JanSahara logo" />
           <span>JanSahara</span>
         </div>
-
-        {/* <button
-          className="menu-button"
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          ☰
-        </button> */}
-
+        
+<button
+  className="menu-button"
+  onClick={() => setMenuOpen(!menuOpen)}
+>
+  ☰
+</button>
         <div className={menuOpen ? "nav-links show" : "nav-links"}>
           <Link to="/">Home</Link>
           <Link to="/women">Women</Link>
@@ -27,11 +26,7 @@ function Navbar() {
           <Link to="/mental-health">Mental Health</Link>
           <Link to="/helplines">Helplines</Link>
         </div>
-
-        <Link to="/sos" className="sos-nav">
-          🚨 SOS
-        </Link>
-
+          <Link to="/sos" className="sos-nav">🚨 SOS </Link>
       </div>
     </nav>
   );
