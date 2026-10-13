@@ -1,4 +1,8 @@
 import PageHeader from "../components/PageHeader";
+<<<<<<< HEAD
+=======
+import { Link } from "react-router-dom";
+>>>>>>> origin/main
 
 function Men() {
   return (
@@ -60,8 +64,13 @@ function Men() {
 
         {/* Mental Health */}
 
+<<<<<<< HEAD
         <a
           href="/men/mental-health"
+=======
+        <Link
+          to="/men/mental-health"
+>>>>>>> origin/main
           className="resource-card"
         >
 
@@ -82,13 +91,22 @@ function Men() {
             </span>
           </div>
 
+<<<<<<< HEAD
         </a>
+=======
+        </Link>
+>>>>>>> origin/main
 
 
         {/* Abuse */}
 
+<<<<<<< HEAD
         <a
           href="/men/abuse-help"
+=======
+        <Link
+          to="/men/abuse-help"
+>>>>>>> origin/main
           className="resource-card"
         >
 
@@ -109,13 +127,22 @@ function Men() {
             </span>
           </div>
 
+<<<<<<< HEAD
         </a>
+=======
+        </Link>
+>>>>>>> origin/main
 
 
         {/* Legal */}
 
+<<<<<<< HEAD
         <a
           href="/men/legal-support"
+=======
+        <Link
+          to="/men/legal-support"
+>>>>>>> origin/main
           className="resource-card"
         >
 
@@ -136,13 +163,22 @@ function Men() {
             </span>
           </div>
 
+<<<<<<< HEAD
         </a>
+=======
+        </Link>
+>>>>>>> origin/main
 
 
         {/* Harassment */}
 
+<<<<<<< HEAD
         <a
           href="/men/harassment"
+=======
+        <Link
+          to="/men/harassment"
+>>>>>>> origin/main
           className="resource-card"
         >
 
@@ -163,13 +199,22 @@ function Men() {
             </span>
           </div>
 
+<<<<<<< HEAD
         </a>
+=======
+        </Link>
+>>>>>>> origin/main
 
 
         {/* Organisations */}
 
+<<<<<<< HEAD
         <a
           href="/men/ngos"
+=======
+        <Link
+          to="/men/ngos"
+>>>>>>> origin/main
           className="resource-card"
         >
 
@@ -190,6 +235,7 @@ function Men() {
             </span>
           </div>
 
+<<<<<<< HEAD
         </a>
 
 
@@ -218,6 +264,9 @@ function Men() {
           </div>
 
         </a>
+=======
+        </Link>
+>>>>>>> origin/main
 
       </div>
 

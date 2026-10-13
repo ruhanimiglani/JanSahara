@@ -105,7 +105,11 @@ function Children() {
             return (
               <Link
                 to={link}
+<<<<<<< HEAD
                 className="child-link"
+=======
+                className="child-rights-link"
+>>>>>>> origin/main
                 key={index}
               >
                 {card}

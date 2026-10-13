@@ -32,9 +32,16 @@ function Home() {
               📍 Find Help Nearby
             </Link>
 
+<<<<<<< HEAD
             <Link to="/complaint" className="complaint">
               📝  Anonymous Complaint
             </Link>
+=======
+            <Link to="/complaint" className="btn dark">
+              📝 Anonymous Complaint
+            </Link>
+
+>>>>>>> origin/main
           </div>
 
         </div>

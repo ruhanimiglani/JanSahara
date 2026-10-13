@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 * {
   margin: 0;
   padding: 0;
@@ -123,6 +126,10 @@ button,input,textarea,select {
 .hero-buttons {
   display: flex;
   gap: 10px;
+<<<<<<< HEAD
+=======
+  flex-wrap: wrap;
+>>>>>>> origin/main
 }
 
 .btn {
@@ -1441,4 +1448,8 @@ button,input,textarea,select {
   font-size: 28px;
   color: #174a9c;
   cursor: pointer;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/main

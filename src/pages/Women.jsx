@@ -1,4 +1,8 @@
 import PageHeader from "../components/PageHeader";
+<<<<<<< HEAD
+=======
+import { Link } from "react-router-dom";
+>>>>>>> origin/main
 
 function Women() {
   return (
@@ -114,11 +118,18 @@ function Women() {
 
         {/* Domestic Violence */}
 
+<<<<<<< HEAD
         <a
           href="/women/domestic-violence"
           className="resource-card"
         >
 
+=======
+        <Link
+          to="/women/domestic-violence"
+          className="resource-card"
+        >
+>>>>>>> origin/main
           <div className="resource-icon">
             🛡️
           </div>
@@ -135,6 +146,7 @@ function Women() {
               View Support →
             </span>
           </div>
+<<<<<<< HEAD
 
         </a>
 
@@ -146,6 +158,18 @@ function Women() {
           className="resource-card"
         >
 
+=======
+        </Link>
+
+        {/* Women NGOs */}
+
+        
+
+        <Link
+          to="/women/ngos"
+          className="resource-card"
+        >
+>>>>>>> origin/main
           <div className="resource-icon">
             🏢
           </div>
@@ -162,17 +186,28 @@ function Women() {
               View NGOs →
             </span>
           </div>
+<<<<<<< HEAD
 
         </a>
+=======
+        </Link>
+>>>>>>> origin/main
 
 
         {/* Safety Tips */}
 
+<<<<<<< HEAD
         <a
           href="/women/safety-tips"
           className="resource-card"
         >
 
+=======
+        <Link
+          to="/women/safety-tips"
+          className="resource-card"
+        >
+>>>>>>> origin/main
           <div className="resource-icon">
             💡
           </div>
@@ -189,8 +224,12 @@ function Women() {
               View Safety Tips →
             </span>
           </div>
+<<<<<<< HEAD
 
         </a>
+=======
+        </Link>
+>>>>>>> origin/main
 
       </div>
 

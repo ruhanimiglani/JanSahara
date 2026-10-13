@@ -11,6 +11,7 @@ function Navbar() {
           <img src="/logo.png" alt="JanSahara logo" />
           <span>JanSahara</span>
         </div>
+<<<<<<< HEAD
         
 <button
   className="menu-button"
@@ -18,6 +19,9 @@ function Navbar() {
 >
   ☰
 </button>
+=======
+
+>>>>>>> origin/main
         <div className={menuOpen ? "nav-links show" : "nav-links"}>
           <Link to="/">Home</Link>
           <Link to="/women">Women</Link>

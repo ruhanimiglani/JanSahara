@@ -17,7 +17,10 @@ import MenAbuseHelp from "./pages/MenAbuseHelp";
 import MenLegalSupport from "./pages/MenLegalSupport";
 import MenHarassment from "./pages/MenHarassment";
 import MenNGOs from "./pages/MenNGOs";
+<<<<<<< HEAD
 import MenSafety from "./pages/MenSafety";
+=======
+>>>>>>> origin/main
 
 import Children from "./pages/Children";
 import ChildRights from "./pages/ChildRights";
@@ -37,7 +40,11 @@ function App() {
   return (
     <BrowserRouter>
 
+<<<<<<< HEAD
       <Navbar/>
+=======
+      <Navbar />
+>>>>>>> origin/main
 
       <Routes>
 
@@ -97,11 +104,14 @@ function App() {
           element={<MenNGOs />}
         />
 
+<<<<<<< HEAD
         <Route
           path="/men/safety-tips"
           element={<MenSafety />}
         />
 
+=======
+>>>>>>> origin/main
 
         {/* Children */}
 
